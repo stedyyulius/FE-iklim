@@ -164,17 +164,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -349,17 +355,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -870,12 +882,14 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": "Suhu",
+                              "className": "suhu",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": "Suhu",
+                              "className": "suhu",
                             },
                             "ref": null,
                             "return": [Circular],
@@ -903,18 +917,22 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": "Perbedaan",
+                                "className": "perbedaan",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": "Perbedaan",
+                                "className": "perbedaan",
                               },
                               "ref": null,
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": null,
-                              "stateNode": <th>
+                              "stateNode": <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                               "tag": 5,
@@ -922,7 +940,9 @@ ReactWrapper {
                               "type": "th",
                               "updateQueue": null,
                             },
-                            "stateNode": <th>
+                            "stateNode": <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>,
                             "tag": 5,
@@ -952,10 +972,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>,
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>,
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                           ],
@@ -968,10 +992,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>,
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>,
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                           ],
@@ -984,10 +1012,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -1010,10 +1042,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -1026,10 +1062,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -1151,6 +1191,7 @@ ReactWrapper {
                                 "children": <b>
                                   Rata-rata
                                 </b>,
+                                "className": "rata-rata",
                               },
                               "memoizedState": null,
                               "mode": 0,
@@ -1159,6 +1200,7 @@ ReactWrapper {
                                 "children": <b>
                                   Rata-rata
                                 </b>,
+                                "className": "rata-rata",
                               },
                               "ref": null,
                               "return": [Circular],
@@ -1414,7 +1456,9 @@ ReactWrapper {
                                 "type": "td",
                                 "updateQueue": null,
                               },
-                              "stateNode": <td>
+                              "stateNode": <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -1435,7 +1479,9 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": Array [
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -1458,7 +1504,9 @@ ReactWrapper {
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": Array [
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -1481,7 +1529,9 @@ ReactWrapper {
                             "selfBaseDuration": 0,
                             "sibling": null,
                             "stateNode": <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -1522,7 +1572,9 @@ ReactWrapper {
                           "children": Array [
                             Array [],
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -1548,7 +1600,9 @@ ReactWrapper {
                           "children": Array [
                             Array [],
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -1573,7 +1627,9 @@ ReactWrapper {
                         "sibling": null,
                         "stateNode": <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -1601,10 +1657,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
@@ -1630,17 +1690,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>,
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -1671,17 +1737,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>,
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -1714,17 +1786,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -1766,17 +1844,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -1809,17 +1893,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -1855,17 +1945,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -1967,17 +2063,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          className="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -2039,17 +2141,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          className="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -2108,17 +2216,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        class="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        class="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        class="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -2429,17 +2543,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -2614,17 +2734,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -2970,17 +3096,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -3155,17 +3287,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -3450,17 +3588,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -3635,17 +3779,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -4234,12 +4384,14 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": "Suhu",
+                              "className": "suhu",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": "Suhu",
+                              "className": "suhu",
                             },
                             "ref": null,
                             "return": [Circular],
@@ -4267,18 +4419,22 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": "Perbedaan",
+                                "className": "perbedaan",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": "Perbedaan",
+                                "className": "perbedaan",
                               },
                               "ref": null,
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": null,
-                              "stateNode": <th>
+                              "stateNode": <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                               "tag": 5,
@@ -4286,7 +4442,9 @@ ReactWrapper {
                               "type": "th",
                               "updateQueue": null,
                             },
-                            "stateNode": <th>
+                            "stateNode": <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>,
                             "tag": 5,
@@ -4316,10 +4474,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>,
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>,
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                           ],
@@ -4332,10 +4494,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>,
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>,
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                           ],
@@ -4348,10 +4514,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -4374,10 +4544,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -4390,10 +4564,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -4515,6 +4693,7 @@ ReactWrapper {
                                 "children": <b>
                                   Rata-rata
                                 </b>,
+                                "className": "rata-rata",
                               },
                               "memoizedState": null,
                               "mode": 0,
@@ -4523,6 +4702,7 @@ ReactWrapper {
                                 "children": <b>
                                   Rata-rata
                                 </b>,
+                                "className": "rata-rata",
                               },
                               "ref": null,
                               "return": [Circular],
@@ -4778,7 +4958,9 @@ ReactWrapper {
                                 "type": "td",
                                 "updateQueue": null,
                               },
-                              "stateNode": <td>
+                              "stateNode": <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -4799,7 +4981,9 @@ ReactWrapper {
                             "lastEffect": null,
                             "memoizedProps": Object {
                               "children": Array [
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -4822,7 +5006,9 @@ ReactWrapper {
                             "nextEffect": null,
                             "pendingProps": Object {
                               "children": Array [
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -4845,7 +5031,9 @@ ReactWrapper {
                             "selfBaseDuration": 0,
                             "sibling": null,
                             "stateNode": <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -4886,7 +5074,9 @@ ReactWrapper {
                           "children": Array [
                             Array [],
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -4912,7 +5102,9 @@ ReactWrapper {
                           "children": Array [
                             Array [],
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -4937,7 +5129,9 @@ ReactWrapper {
                         "sibling": null,
                         "stateNode": <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -4965,10 +5159,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
@@ -4994,17 +5192,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>,
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -5035,17 +5239,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>,
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -5078,17 +5288,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -5130,17 +5346,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -5173,17 +5395,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -5219,17 +5447,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -5331,17 +5565,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          className="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -5403,17 +5643,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          className="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -5472,17 +5718,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        class="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        class="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        class="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -5713,17 +5965,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -5898,17 +6156,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -6193,17 +6457,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -6378,17 +6648,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -6710,17 +6986,23 @@ ReactWrapper {
                   <th>
                     Select The City
                   </th>
-                  <th>
+                  <th
+                    class="suhu"
+                  >
                     Suhu
                   </th>
-                  <th>
+                  <th
+                    class="perbedaan"
+                  >
                     Perbedaan
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>
+                  <td
+                    class="rata-rata"
+                  >
                     <b>
                       Rata-rata
                     </b>
@@ -6780,17 +7062,23 @@ ReactWrapper {
                     <th>
                       Select The City
                     </th>
-                    <th>
+                    <th
+                      className="suhu"
+                    >
                       Suhu
                     </th>
-                    <th>
+                    <th
+                      className="perbedaan"
+                    >
                       Perbedaan
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td
+                      className="rata-rata"
+                    >
                       <b>
                         Rata-rata
                       </b>
@@ -6949,17 +7237,23 @@ ReactWrapper {
                     <th>
                       Select The City
                     </th>
-                    <th>
+                    <th
+                      class="suhu"
+                    >
                       Suhu
                     </th>
-                    <th>
+                    <th
+                      class="perbedaan"
+                    >
                       Perbedaan
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td
+                      class="rata-rata"
+                    >
                       <b>
                         Rata-rata
                       </b>
@@ -6990,17 +7284,23 @@ ReactWrapper {
                     <th>
                       Select The City
                     </th>
-                    <th>
+                    <th
+                      className="suhu"
+                    >
                       Suhu
                     </th>
-                    <th>
+                    <th
+                      className="perbedaan"
+                    >
                       Perbedaan
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td
+                      className="rata-rata"
+                    >
                       <b>
                         Rata-rata
                       </b>
@@ -7032,17 +7332,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        class="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        class="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        class="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -7070,17 +7376,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>,
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          className="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -7109,10 +7421,14 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          class="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          class="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
@@ -7124,10 +7440,14 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          className="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          className="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>,
@@ -7139,10 +7459,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -7153,10 +7477,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>,
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>,
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                           ],
@@ -7179,13 +7507,16 @@ ReactWrapper {
                             "type": "th",
                           },
                           Object {
-                            "instance": <th>
+                            "instance": <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>,
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
                               "children": "Suhu",
+                              "className": "suhu",
                             },
                             "ref": null,
                             "rendered": Array [
@@ -7194,13 +7525,16 @@ ReactWrapper {
                             "type": "th",
                           },
                           Object {
-                            "instance": <th>
+                            "instance": <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>,
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
                               "children": "Perbedaan",
+                              "className": "perbedaan",
                             },
                             "ref": null,
                             "rendered": Array [
@@ -7217,7 +7551,9 @@ ReactWrapper {
                   Object {
                     "instance": <tbody>
                       <tr>
-                        <td>
+                        <td
+                          class="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -7241,7 +7577,9 @@ ReactWrapper {
                       "children": Array [
                         Array [],
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -7265,7 +7603,9 @@ ReactWrapper {
                       null,
                       Object {
                         "instance": <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -7286,7 +7626,9 @@ ReactWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -7307,7 +7649,9 @@ ReactWrapper {
                         "ref": null,
                         "rendered": Array [
                           Object {
-                            "instance": <td>
+                            "instance": <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -7318,6 +7662,7 @@ ReactWrapper {
                               "children": <b>
                                 Rata-rata
                               </b>,
+                              "className": "rata-rata",
                             },
                             "ref": null,
                             "rendered": Array [
@@ -7574,17 +7919,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -7759,17 +8110,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -8280,12 +8637,14 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": "Suhu",
+                                "className": "suhu",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": "Suhu",
+                                "className": "suhu",
                               },
                               "ref": null,
                               "return": [Circular],
@@ -8313,18 +8672,22 @@ ReactWrapper {
                                 "lastEffect": null,
                                 "memoizedProps": Object {
                                   "children": "Perbedaan",
+                                  "className": "perbedaan",
                                 },
                                 "memoizedState": null,
                                 "mode": 0,
                                 "nextEffect": null,
                                 "pendingProps": Object {
                                   "children": "Perbedaan",
+                                  "className": "perbedaan",
                                 },
                                 "ref": null,
                                 "return": [Circular],
                                 "selfBaseDuration": 0,
                                 "sibling": null,
-                                "stateNode": <th>
+                                "stateNode": <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>,
                                 "tag": 5,
@@ -8332,7 +8695,9 @@ ReactWrapper {
                                 "type": "th",
                                 "updateQueue": null,
                               },
-                              "stateNode": <th>
+                              "stateNode": <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>,
                               "tag": 5,
@@ -8362,10 +8727,14 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>,
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>,
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                             ],
@@ -8378,10 +8747,14 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>,
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>,
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                             ],
@@ -8394,10 +8767,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -8420,10 +8797,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -8436,10 +8817,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -8561,6 +8946,7 @@ ReactWrapper {
                                   "children": <b>
                                     Rata-rata
                                   </b>,
+                                  "className": "rata-rata",
                                 },
                                 "memoizedState": null,
                                 "mode": 0,
@@ -8569,6 +8955,7 @@ ReactWrapper {
                                   "children": <b>
                                     Rata-rata
                                   </b>,
+                                  "className": "rata-rata",
                                 },
                                 "ref": null,
                                 "return": [Circular],
@@ -8824,7 +9211,9 @@ ReactWrapper {
                                   "type": "td",
                                   "updateQueue": null,
                                 },
-                                "stateNode": <td>
+                                "stateNode": <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -8845,7 +9234,9 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": Array [
-                                  <td>
+                                  <td
+                                    className="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -8868,7 +9259,9 @@ ReactWrapper {
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": Array [
-                                  <td>
+                                  <td
+                                    className="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -8891,7 +9284,9 @@ ReactWrapper {
                               "selfBaseDuration": 0,
                               "sibling": null,
                               "stateNode": <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -8932,7 +9327,9 @@ ReactWrapper {
                             "children": Array [
                               Array [],
                               <tr>
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -8958,7 +9355,9 @@ ReactWrapper {
                             "children": Array [
                               Array [],
                               <tr>
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -8983,7 +9382,9 @@ ReactWrapper {
                           "sibling": null,
                           "stateNode": <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -9011,10 +9412,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
@@ -9040,17 +9445,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>,
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -9081,17 +9492,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>,
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -9124,17 +9541,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -9176,17 +9599,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -9219,17 +9648,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -9265,17 +9700,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -9377,17 +9818,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -9449,17 +9896,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -9518,17 +9971,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          class="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          class="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          class="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -9839,17 +10298,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -10024,17 +10489,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -10380,17 +10851,23 @@ ReactWrapper {
                                   <th>
                                     Select The City
                                   </th>
-                                  <th>
+                                  <th
+                                    class="suhu"
+                                  >
                                     Suhu
                                   </th>
-                                  <th>
+                                  <th
+                                    class="perbedaan"
+                                  >
                                     Perbedaan
                                   </th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td>
+                                  <td
+                                    class="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -10565,17 +11042,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -10860,17 +11343,23 @@ ReactWrapper {
                                   <th>
                                     Select The City
                                   </th>
-                                  <th>
+                                  <th
+                                    class="suhu"
+                                  >
                                     Suhu
                                   </th>
-                                  <th>
+                                  <th
+                                    class="perbedaan"
+                                  >
                                     Perbedaan
                                   </th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td>
+                                  <td
+                                    class="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -11045,17 +11534,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -11644,12 +12139,14 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": "Suhu",
+                                "className": "suhu",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": "Suhu",
+                                "className": "suhu",
                               },
                               "ref": null,
                               "return": [Circular],
@@ -11677,18 +12174,22 @@ ReactWrapper {
                                 "lastEffect": null,
                                 "memoizedProps": Object {
                                   "children": "Perbedaan",
+                                  "className": "perbedaan",
                                 },
                                 "memoizedState": null,
                                 "mode": 0,
                                 "nextEffect": null,
                                 "pendingProps": Object {
                                   "children": "Perbedaan",
+                                  "className": "perbedaan",
                                 },
                                 "ref": null,
                                 "return": [Circular],
                                 "selfBaseDuration": 0,
                                 "sibling": null,
-                                "stateNode": <th>
+                                "stateNode": <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>,
                                 "tag": 5,
@@ -11696,7 +12197,9 @@ ReactWrapper {
                                 "type": "th",
                                 "updateQueue": null,
                               },
-                              "stateNode": <th>
+                              "stateNode": <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>,
                               "tag": 5,
@@ -11726,10 +12229,14 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>,
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>,
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                             ],
@@ -11742,10 +12249,14 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>,
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>,
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                             ],
@@ -11758,10 +12269,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -11784,10 +12299,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -11800,10 +12319,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -11925,6 +12448,7 @@ ReactWrapper {
                                   "children": <b>
                                     Rata-rata
                                   </b>,
+                                  "className": "rata-rata",
                                 },
                                 "memoizedState": null,
                                 "mode": 0,
@@ -11933,6 +12457,7 @@ ReactWrapper {
                                   "children": <b>
                                     Rata-rata
                                   </b>,
+                                  "className": "rata-rata",
                                 },
                                 "ref": null,
                                 "return": [Circular],
@@ -12188,7 +12713,9 @@ ReactWrapper {
                                   "type": "td",
                                   "updateQueue": null,
                                 },
-                                "stateNode": <td>
+                                "stateNode": <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -12209,7 +12736,9 @@ ReactWrapper {
                               "lastEffect": null,
                               "memoizedProps": Object {
                                 "children": Array [
-                                  <td>
+                                  <td
+                                    className="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -12232,7 +12761,9 @@ ReactWrapper {
                               "nextEffect": null,
                               "pendingProps": Object {
                                 "children": Array [
-                                  <td>
+                                  <td
+                                    className="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -12255,7 +12786,9 @@ ReactWrapper {
                               "selfBaseDuration": 0,
                               "sibling": null,
                               "stateNode": <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -12296,7 +12829,9 @@ ReactWrapper {
                             "children": Array [
                               Array [],
                               <tr>
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -12322,7 +12857,9 @@ ReactWrapper {
                             "children": Array [
                               Array [],
                               <tr>
-                                <td>
+                                <td
+                                  className="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -12347,7 +12884,9 @@ ReactWrapper {
                           "sibling": null,
                           "stateNode": <tbody>
                             <tr>
-                              <td>
+                              <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -12375,10 +12914,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
@@ -12404,17 +12947,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>,
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -12445,17 +12994,23 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>
                             </tr>
                           </thead>,
                           <tbody>
                             <tr>
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -12488,17 +13043,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -12540,17 +13101,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -12583,17 +13150,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              className="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              className="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -12629,17 +13202,23 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -12741,17 +13320,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -12813,17 +13398,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -12882,17 +13473,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          class="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          class="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          class="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -13123,17 +13720,23 @@ ReactWrapper {
                                   <th>
                                     Select The City
                                   </th>
-                                  <th>
+                                  <th
+                                    class="suhu"
+                                  >
                                     Suhu
                                   </th>
-                                  <th>
+                                  <th
+                                    class="perbedaan"
+                                  >
                                     Perbedaan
                                   </th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td>
+                                  <td
+                                    class="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -13308,17 +13911,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -13603,17 +14212,23 @@ ReactWrapper {
                                   <th>
                                     Select The City
                                   </th>
-                                  <th>
+                                  <th
+                                    class="suhu"
+                                  >
                                     Suhu
                                   </th>
-                                  <th>
+                                  <th
+                                    class="perbedaan"
+                                  >
                                     Perbedaan
                                   </th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td>
+                                  <td
+                                    class="rata-rata"
+                                  >
                                     <b>
                                       Rata-rata
                                     </b>
@@ -13788,17 +14403,23 @@ ReactWrapper {
                                 <th>
                                   Select The City
                                 </th>
-                                <th>
+                                <th
+                                  class="suhu"
+                                >
                                   Suhu
                                 </th>
-                                <th>
+                                <th
+                                  class="perbedaan"
+                                >
                                   Perbedaan
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>
+                                <td
+                                  class="rata-rata"
+                                >
                                   <b>
                                     Rata-rata
                                   </b>
@@ -14120,17 +14741,23 @@ ReactWrapper {
                     <th>
                       Select The City
                     </th>
-                    <th>
+                    <th
+                      class="suhu"
+                    >
                       Suhu
                     </th>
-                    <th>
+                    <th
+                      class="perbedaan"
+                    >
                       Perbedaan
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td
+                      class="rata-rata"
+                    >
                       <b>
                         Rata-rata
                       </b>
@@ -14190,17 +14817,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        className="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        className="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        className="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -14359,17 +14992,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        class="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        class="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        class="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -14400,17 +15039,23 @@ ReactWrapper {
                       <th>
                         Select The City
                       </th>
-                      <th>
+                      <th
+                        className="suhu"
+                      >
                         Suhu
                       </th>
-                      <th>
+                      <th
+                        className="perbedaan"
+                      >
                         Perbedaan
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <td
+                        className="rata-rata"
+                      >
                         <b>
                           Rata-rata
                         </b>
@@ -14442,17 +15087,23 @@ ReactWrapper {
                         <th>
                           Select The City
                         </th>
-                        <th>
+                        <th
+                          class="suhu"
+                        >
                           Suhu
                         </th>
-                        <th>
+                        <th
+                          class="perbedaan"
+                        >
                           Perbedaan
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>
+                        <td
+                          class="rata-rata"
+                        >
                           <b>
                             Rata-rata
                           </b>
@@ -14480,17 +15131,23 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
                       </thead>,
                       <tbody>
                         <tr>
-                          <td>
+                          <td
+                            className="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -14519,10 +15176,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            class="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            class="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>
@@ -14534,10 +15195,14 @@ ReactWrapper {
                           <th>
                             Select The City
                           </th>
-                          <th>
+                          <th
+                            className="suhu"
+                          >
                             Suhu
                           </th>
-                          <th>
+                          <th
+                            className="perbedaan"
+                          >
                             Perbedaan
                           </th>
                         </tr>,
@@ -14549,10 +15214,14 @@ ReactWrapper {
                             <th>
                               Select The City
                             </th>
-                            <th>
+                            <th
+                              class="suhu"
+                            >
                               Suhu
                             </th>
-                            <th>
+                            <th
+                              class="perbedaan"
+                            >
                               Perbedaan
                             </th>
                           </tr>,
@@ -14563,10 +15232,14 @@ ReactWrapper {
                               <th>
                                 Select The City
                               </th>,
-                              <th>
+                              <th
+                                className="suhu"
+                              >
                                 Suhu
                               </th>,
-                              <th>
+                              <th
+                                className="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                             ],
@@ -14589,13 +15262,16 @@ ReactWrapper {
                               "type": "th",
                             },
                             Object {
-                              "instance": <th>
+                              "instance": <th
+                                class="suhu"
+                              >
                                 Suhu
                               </th>,
                               "key": undefined,
                               "nodeType": "host",
                               "props": Object {
                                 "children": "Suhu",
+                                "className": "suhu",
                               },
                               "ref": null,
                               "rendered": Array [
@@ -14604,13 +15280,16 @@ ReactWrapper {
                               "type": "th",
                             },
                             Object {
-                              "instance": <th>
+                              "instance": <th
+                                class="perbedaan"
+                              >
                                 Perbedaan
                               </th>,
                               "key": undefined,
                               "nodeType": "host",
                               "props": Object {
                                 "children": "Perbedaan",
+                                "className": "perbedaan",
                               },
                               "ref": null,
                               "rendered": Array [
@@ -14627,7 +15306,9 @@ ReactWrapper {
                     Object {
                       "instance": <tbody>
                         <tr>
-                          <td>
+                          <td
+                            class="rata-rata"
+                          >
                             <b>
                               Rata-rata
                             </b>
@@ -14651,7 +15332,9 @@ ReactWrapper {
                         "children": Array [
                           Array [],
                           <tr>
-                            <td>
+                            <td
+                              className="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -14675,7 +15358,9 @@ ReactWrapper {
                         null,
                         Object {
                           "instance": <tr>
-                            <td>
+                            <td
+                              class="rata-rata"
+                            >
                               <b>
                                 Rata-rata
                               </b>
@@ -14696,7 +15381,9 @@ ReactWrapper {
                           "nodeType": "host",
                           "props": Object {
                             "children": Array [
-                              <td>
+                              <td
+                                className="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -14717,7 +15404,9 @@ ReactWrapper {
                           "ref": null,
                           "rendered": Array [
                             Object {
-                              "instance": <td>
+                              "instance": <td
+                                class="rata-rata"
+                              >
                                 <b>
                                   Rata-rata
                                 </b>
@@ -14728,6 +15417,7 @@ ReactWrapper {
                                 "children": <b>
                                   Rata-rata
                                 </b>,
+                                "className": "rata-rata",
                               },
                               "ref": null,
                               "rendered": Array [

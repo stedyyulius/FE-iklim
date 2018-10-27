@@ -41,8 +41,8 @@ class Main extends Component {
             <thead>
               <tr>
                 <th>{this.state.city}</th>
-                <th>Suhu</th>
-                <th>Perbedaan</th>
+                <th className="suhu">Suhu</th>
+                <th className="perbedaan">Perbedaan</th>
               </tr>
             </thead>
             <tbody>
@@ -54,7 +54,7 @@ class Main extends Component {
                 </tr>
               )}
               <tr>
-                <td><b>Rata-rata</b></td>
+                <td className="rata-rata"><b>Rata-rata</b></td>
                 <td><b>{tempAverage(this.props.weather)}C</b></td>
                 <td><b>{tempDiffAverage(this.props.weather)}</b></td>
               </tr>

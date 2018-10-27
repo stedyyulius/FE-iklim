@@ -58,4 +58,19 @@ describe('MyComponent', () => {
     expect(component.render().find('table').find('thead').find('tr').find('th')).toHaveLength(3);
   });
 
+  it('should have suhu column', () => {
+   const component = shallow(<Main store={store} />);
+   expect(component.render().find('table').find('thead').find('tr').find('.suhu').text()).toEqual('Suhu');
+  });
+
+  it('should have perbedaan column', () => {
+   const component = shallow(<Main store={store} />);
+   expect(component.render().find('table').find('thead').find('tr').find('.perbedaan').text()).toEqual('Perbedaan');
+  });
+
+  it('should have rata-rata column', () => {
+   const component = shallow(<Main store={store} />);
+   expect(component.render().find('table').find('tbody').find('tr').find('.rata-rata').text()).toEqual('Rata-rata');
+  });
+
 });
