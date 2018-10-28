@@ -1,0 +1,9 @@
+.table-section {
+  margin-top: 50px;
+  position: relative;
+  left: 42%;
+}
+
+th, td {
+  padding: 10px;
+}

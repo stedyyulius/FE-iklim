@@ -10,6 +10,10 @@ export const getCityWeathers = (city) => {
         type: 'weathers',
         payload: response.data.list,
       })
+      dispatch({
+        type: 'city',
+        payload: city,
+      })
     })
     .catch((err) => {
       console.log(err);
