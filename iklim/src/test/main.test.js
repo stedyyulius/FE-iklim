@@ -18,5 +18,4 @@ describe('<Main />', () => {
     const component = mount(<Provider store={store}><Main /></Provider>);
     expect(component.render().find('.title')).toHaveLength(1);
   });
-
 });

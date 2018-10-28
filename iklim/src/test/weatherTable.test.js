@@ -50,5 +50,4 @@ describe('<WeatherTable />', () => {
    const component = shallow(<WeatherTable store={store} />);
    expect(component.render().find('table').find('tbody').find('tr').find('.rata-rata').text()).toEqual('Rata-rata');
   });
-
 });

@@ -11,9 +11,7 @@ describe('<CityDropdown />', () => {
 
   it('There should be dropdown select city function', () => {
     const component = mount(<CityDropdown store={store} />);
-    component
-      .find('select.select-city')
-      .simulate('click');
+    component.find('select.select-city').simulate('click');
     expect(component).toMatchSnapshot();
     component.unmount();
   });
@@ -42,5 +40,4 @@ describe('<CityDropdown />', () => {
    const component = shallow(<CityDropdown store={store} />);
    expect(component.render().find('.select-city').find('.bangkok').text()).toEqual('Bangkok');
   });
-
 });
